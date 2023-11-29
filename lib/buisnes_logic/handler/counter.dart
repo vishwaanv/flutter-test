@@ -1,4 +1,3 @@
-// counter_cubit.dart
 import 'package:connou_test/data/models/counter.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
