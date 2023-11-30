@@ -68,13 +68,14 @@ Ensure the codebase is available on a version control platform such as GitLab or
 
 **Submission Email:**
 
-Send an email to [bewerbung@connou.app](mailto:bewerbung@connou.app?subject=Application%20for%20Flutter%20Developer%20Position%20-%20[Your%20Name]) with the following details:
+Send an email to [careers@connou.app](mailto:careers@connou.app?subject=Application%20for%20Flutter%20Developer%20Position%20-%20[Your%20Name]) with the following details:
 
 - Subject: Application for Flutter Developer Position - [Applicant's Name]
 - Body:
     - Brief description of your implementation.
     - Shareable link to the video demonstration.
     - Link to the GitLab or GitHub repository with access instructions.
+    - Attach your latest CV showcasing projects you have worked on
 
 The Connou team will review your submission, and if necessary, they will contact you for further clarification.
 
