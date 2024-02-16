@@ -49,12 +49,13 @@ Feel free to explore the code and make modifications based on your requirements.
 
 **Video Submission:**
 
-Please create a short video demonstrating the functionality of the Flutter Counter App. The video should showcase the following:
+Please create a short video (max 5 min) explaining the code and demonstrating the functionality of the App. The video should showcase the following:
 
 1. Launching the app.
 2. Incrementing the counter.
-3. Decrementing the counter (after implementation).
+3. Decrementing the counter.
 4. Highlighting the color change when the counter goes negative.
+5. Explanation of all lines of code that you have added.
 
 Upload the video to a platform of your choice (YouTube, Google Drive, etc.), and provide a shareable link.
 
