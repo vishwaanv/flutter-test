@@ -53,16 +53,13 @@ class MyHomePage extends StatelessWidget {
             BlocBuilder<CounterHandler, Counter>(
               builder: (context, state) {
                 // Determine text color based on whether the counter is positive.
-                Color? color;
-                if (state.isPositive) {
-                  color = Colors.green;
-                }
+
                 // Display the count with styling.
                 return Text(
                   'Count: ${state.count}',
                   style: TextStyle(
                     fontSize: 24,
-                    color: color,
+                    color: state.isPositive ? Colors.green : Colors.red,
                   ),
                 );
               },
@@ -70,14 +67,13 @@ class MyHomePage extends StatelessWidget {
             const SizedBox(height: 20),
 
             /// Button to increment the counter when pressed.
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                ElevatedButton(
-                  onPressed: () => counterCubit.increment(),
-                  child: const Text('Increment'),
-                ),
-              ],
+            ElevatedButton(
+              onPressed: () => counterCubit.increment(),
+              child: const Text('Increment'),
+            ),
+            ElevatedButton(
+              onPressed: () => counterCubit.decrement(),
+              child: const Text('Decrement'),
             ),
           ],
         ),

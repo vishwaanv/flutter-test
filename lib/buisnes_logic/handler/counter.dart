@@ -10,4 +10,10 @@ class CounterHandler extends Cubit<Counter> {
   ///
   /// Emits the updated counter value to notify listeners.
   void increment() => emit(Counter(state.count + 1));
+
+  /// decrease  the counter value by 1.
+  ///
+  /// Emits the updated counter value to notify listeners.
+  ///
+  void decrement() => emit(Counter(state.count - 1));
 }
